@@ -2,17 +2,25 @@ body {
 	font-size: 20px;
 }
 
-#heading {
+.jumbotron {
 	height: 540px;
 	background-image: url('../img/milkbg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-#inner-heading {
+.jumbotron-text {
 	background-color: rgba(255,255,255,0.3);
 }
 
+.about {
+	background-color: rgb(210,212,216);
+}
+
 #contact-us {
-	background-color: lightblue;
+	background-color: #0fd3ff;
+	color: #ffffff;
+	font-weight: bold;
 }
 
 .row {
